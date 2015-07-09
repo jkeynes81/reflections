@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work local?
+  To make the project open source and other contributors can add value to the project
+  A backup away from the local machine
+  Centralized place to access projects from anywhere
