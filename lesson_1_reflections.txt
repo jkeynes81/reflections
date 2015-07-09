@@ -1,0 +1,22 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+	With diff there is no need to go through each line on both files and compare each word by word and find out the difference. Since diff shows just the differences between the files , the number of lines to compare is reduced.
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+	Revert or add huge functionality of a product just by switching versions
+	Dont have to worry about overwritting changes
+	Debug files and identify when a bug was introduced
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+	Pros:
+		Logically choose to commit after adding a new feature which limits the number of commits
+		Label the commits properly for bug fixing and tracking
+	Cons:
+		Large commits
+		Work offline
+		Commits made inbetween lines cannot be compiled as-is
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+	Both systems capture all files, Git saves all files as they are comitted manually, others commit automatically and capture all files but separately.
+How can you use the commands git log and git diff to view the history of files?
+	git log, lists all the versions with ID's and these version ID's can be used with git diff to check the difference between these versions which includes all the files in the repository
+How might using version control make you more confident to make changes that could break something?
+	It allows to simply switch to a workign version of the code so changes can be made knowing that previously working code is always available.	
+Now that you have your workspace set up, what do you want to try using Git for?
+	Comitting files to Git, make changes to files and restoring previously commited files	

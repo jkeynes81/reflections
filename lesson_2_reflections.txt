@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+	When initialized a '.git' folder is created which has files with metadata about the folder in which it was initialized. Initialization is needed to add the folder to the repository for further commits and checkouts
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+	staging are is a logical location maintained by git and not a physical working directory; it is a temporary logical location, where files status's are held for committing in the repository.Files can be removed or added before making commits, and serves as a temporary location.
