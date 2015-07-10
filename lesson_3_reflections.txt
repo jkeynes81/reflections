@@ -1,0 +1,11 @@
+When would you want to use a remote repository rather than keeping all your work local?
+  To make the project open source and other contributors can add value to the project
+  A backup away from the local machine
+  Centralized place to access projects from anywhere
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+	Pull to local repository only the commit required and if done automatically it can overwrite the code which I am working on
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+	Forks are clones made by GitHub and has to be cloned manually to local repository
+	Clones are copying remote repository to lcoal repository
+	Branches are within the local repository where commits are made with the branch labels
+
